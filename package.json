@@ -1,0 +1,23 @@
+{
+  "name": "heatshield-india",
+  "version": "1.0.0",
+  "description": "HeatShield India — AI-Powered Hyperlocal Heat-Health Early Warning System",
+  "private": true,
+  "scripts": {
+    "start": "node server/src/index.js",
+    "build": "cd client && npm run build",
+    "dev": "node server/src/index.js",
+    "dev:client": "cd client && npm run dev",
+    "test": "cd server && node test_e2e.js"
+  },
+  "keywords": [
+    "heat-health",
+    "early-warning-system",
+    "heat-index",
+    "wbgt",
+    "utci",
+    "climate-resilience",
+    "south-india"
+  ],
+  "author": "HeatShield India Team"
+}
